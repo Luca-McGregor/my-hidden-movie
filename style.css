@@ -1,0 +1,106 @@
+ /* The navigation bar */
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+  }
+
+/* Links inside the navigation bar */
+.topnav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change background on mouse-over */
+.topnav a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/* Change background on click */
+.topnav a:active {
+      background: rgb(192, 122, 56);
+      color: black;
+  }
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a slight top margin to avoid content overlay */
+  }
+
+.still {
+    width: 100%;
+    height: auto;
+}
+
+.description-under-photo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -0.2mm;
+    text-align: right;
+    font-size: 12px;
+}
+
+/* Allignment of the main text */
+.alltext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.titletext {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: -1mm;
+}
+
+.authortext {
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    margin-top: -1mm;
+    margin-bottom: -1mm;
+}
+
+.introduction {
+    font-size: 25px;
+    text-align: center;
+}
+
+.headers {
+    color: rgb(192, 122, 56);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.body {
+    font-size: 18px;
+}
+
+#spoiler {
+    color: red;
+    margin-left: 23%;
+    margin-right: 23%;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.footer {
+    background: #333;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: 10px;
+}
